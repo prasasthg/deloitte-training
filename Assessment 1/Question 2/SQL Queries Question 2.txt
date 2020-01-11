@@ -1,0 +1,17 @@
+Question 2 SQL Queries
+
+1.
+select * from movie where status=available
+ and (showdate between 2020-01-04 and 2020-01-10);
+
+
+
+2.
+select count(*) from movie as available , booked where status=available 
+and status=booked;
+
+
+
+
+
+
